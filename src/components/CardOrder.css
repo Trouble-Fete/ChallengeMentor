@@ -1,0 +1,31 @@
+.moduleOrder {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	border-radius: 15px;
+	background-color: white;
+	min-width: 20rem;
+	max-height: 15rem;
+	padding: 1rem;
+
+	h2 {
+		color: red;
+	}
+	.delivery {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+		margin: 0 auto;
+		width: 100%;
+		img {
+			width: 3rem;
+		}
+	}
+	button {
+		background-color: red;
+		min-height: 2rem;
+		color: white;
+		border-radius: 15px / 50%;
+	}
+}
